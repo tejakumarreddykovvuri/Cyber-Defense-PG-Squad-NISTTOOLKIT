@@ -1,0 +1,28 @@
+<html>
+<body>
+<input type="text" id="_id">
+<input type= "text" id="rec">
+<a class="btn btn-primary" href="#" id="Next">Next</a>
+<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/scripts/main.js"></script>
+<script>
+$("#Next").click(function() {
+      var formData = {
+        '_id': $('#_id').val(),
+        'rec': $('#rec').val()
+        };
+				console.log(formData);
+				$.post("http://localhost:7000/api/recs", formData, function(response) {
+					console.log("hai")
+					if (response.error == undefined) {
+						console.log(response.response);
+					} else {
+						showError(response.error)
+					}
+				});
+		});
+	</script>
+</body>
+
+</html>

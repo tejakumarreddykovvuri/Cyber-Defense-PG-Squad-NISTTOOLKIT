@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CSRI-maturity assessment tool</title>
+    <!-- loading external css files -->
+    <link href="css/main.css" rel="stylesheet">
+    <!-- loading external css files -->
+    <link href="css/circle.css" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+</head>
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            class="p-0 btn">
+                                            <img width="42" class="rounded-circle" src="assets/images/csri-icon.png"
+                                                alt="">
+                                            <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true"
+                                            class="dropdown-menu dropdown-menu-right">
+                                        <a href="/users/logout"><button type="button" tabindex="0" class="dropdown-item">Signout</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                        Deakin Detonator Cyber Defence-PG Squad
+                                    </div>
+                                    <div class="widget-subheading">
+                                        Admin Account
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Dashboards</li>
+                            <li>
+                                <a href="index" class="mm-active">
+
+                                    CSRI
+                                </a>
+                            </li>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div>CSRI Dashboard
+
+                                </div>
+                            </div>
+                            <div class="page-title-actions">
+
+                                <div tabindex="-1" role="menu" aria-hidden="true"
+                                    class="dropdown-menu dropdown-menu-right">
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon lnr-inbox"></i>
+                                                <span>
+                                                    Inbox
+                                                </span>
+                                                <div class="ml-auto badge badge-pill badge-secondary">86</div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon lnr-book"></i>
+                                                <span>
+                                                    Book
+                                                </span>
+                                                <div class="ml-auto badge badge-pill badge-danger">5</div>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="javascript:void(0);" class="nav-link">
+                                                <i class="nav-link-icon lnr-picture"></i>
+                                                <span>
+                                                    Picture
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a disabled href="javascript:void(0);" class="nav-link disabled">
+                                                <i class="nav-link-icon lnr-file-empty"></i>
+                                                <span>
+                                                    File Disabled
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="main-card mb-3 card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="box">
+                                                <div class="box-header">
+                                                    <h5 class="box-title">Maturity results of your assessment </h5>
+                                                </div>
+                                                <!-- Chart -->
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="clearfix p-4">
+                                                            <div class="row">
+                                                                <div class="col-md-2 text-center">
+                                                                    <p><b>Identify</b></p>
+                                                                    <div class="c100 p100 mx-3 green">
+                                                                        <span id="ip"></span>
+                                                                        <div class="slice">
+                                                                            <div class="bar"></div>
+                                                                            <div class="fill"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 text-center">
+                                                                    <p><b>Protect</b></p>
+                                                                    <div class="c100 p100 mx-3 orange">
+                                                                        <span id="pp"></span>
+                                                                        <div class="slice">
+                                                                            <div class="bar"></div>
+                                                                            <div class="fill"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 text-center">
+                                                                    <p><b>Detect</b></p>
+                                                                    <div class="c100 p100 mx-3 blue">
+                                                                        <span id="dp"></span>
+                                                                        <div class="slice">
+                                                                            <div class="bar"></div>
+                                                                            <div class="fill"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 text-center">
+                                                                    <p><b>Respond</b></p>
+                                                                    <div class="c100 p100 mx-3">
+                                                                        <span id="rp"></span>
+                                                                        <div class="slice">
+                                                                            <div class="bar"></div>
+                                                                            <div class="fill"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-2 text-center">
+                                                                    <p><b>Recovery</b></p>
+                                                                    <div class="c100 p100 mx-3">
+                                                                        <span id="rep"></span>
+                                                                        <div class="slice">
+                                                                            <div class="bar"></div>
+                                                                            <div class="fill"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Link to Recommendation-->
+                                                <div class="alert alert-info">
+                                                    <strong>Thank You!</strong>
+                                                    <p>Based on your result, we have our <a
+                                                            href="recommendations"><strong>Recommendations!</strong></a>
+                                                        to improve your maturity level.</p>
+                                                </div>
+                                                <!--Table for Overall result-->
+                                                <div class="page-header">
+                                                    <h5>Overall Maturity Results</h5>
+                                                </div>
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th scope="col">Phase</th>
+                                                            <th scope="col">Score</th>
+                                                            <th scope="col">Maturity Level</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">IDENTIFY</th>
+                                                            <td id="ov1"></td>
+                                                            <td id="ov2"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">PROTECT</th>
+                                                            <td id="ov3"></td>
+                                                            <td id="ov4"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">DETECT</th>
+                                                            <td id="ov5"></td>
+                                                            <td id="ov6"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">RESPOND</th>
+                                                            <td id="ov7"></td>
+                                                            <td id="ov8"></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">RECOVERY</th>
+                                                            <td id="ov9"></td>
+                                                            <td id="ov10"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <!-- Accorian -->
+                                                <div class="page-header">
+                                                    <h5>Detailed Results of each phase</h5>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div id="accordion">
+                                                            <div class="card">
+                                                                <div class="card-header" id="headingOne">
+                                                                    <h5 class="mb-0">
+                                                                        <button class="btn btn-link"
+                                                                            data-toggle="collapse"
+                                                                            data-target="#collapseOne"
+                                                                            aria-expanded="true"
+                                                                            aria-controls="collapseOne">
+                                                                            IDENTIFY
+                                                                        </button>
+                                                                    </h5>
+                                                                </div>
+
+                                                                <div id="collapseOne" class="collapse show"
+                                                                    aria-labelledby="headingOne"
+                                                                    data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                        <table class="table">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th scope="col">Category</th>
+                                                                                    <th scope="col">Score</th>
+                                                                                    <th scope="col">Maturity Level</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <th scope="row">Asset
+                                                                                        Management</th>
+                                                                                    <td id="i1"></td>
+                                                                                    <td id="i2"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th scope="row">Business
+                                                                                        Environment</th>
+                                                                                    <td id="i3"></td>
+                                                                                    <td id="i4"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Governance</th>
+                                                                                    <td id="i5"></td>
+                                                                                    <td id="i6"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th scope="row">Risk
+                                                                                        Assessment</th>
+                                                                                    <td id="i7"></td>
+                                                                                    <td id="i8"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">Risk
+                                                                                        Management Strategy</th>
+                                                                                    <td id="i9"></td>
+                                                                                    <td id="i10"></td>
+                                                                                </tr>
+                                                                                <th scope="row">Supply
+                                                                                    Chain Risk Management</th>
+                                                                                <td id="i11"></td>
+                                                                                <td id="i12"></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="card-header" id="headingTwo">
+                                                                    <h5 class="mb-0">
+                                                                        <button class="btn btn-link collapsed"
+                                                                            data-toggle="collapse"
+                                                                            data-target="#collapseTwo"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="collapseTwo">
+                                                                            PROTECT
+                                                                        </button>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapseTwo" class="collapse"
+                                                                    aria-labelledby="headingTwo"
+                                                                    data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                        <table class="table">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th scope="col">Category</th>
+                                                                                    <th scope="col">Score</th>
+                                                                                    <th scope="col">Maturity Level</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <th scope="row">Identity
+                                                                                        Management and Access Control
+                                                                                    </th>
+                                                                                    <td id="p1"></td>
+                                                                                    <td id="p2"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Awareness and Training</th>
+                                                                                    <td id="p3"></td>
+                                                                                    <td id="p4"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">Data
+                                                                                        Security</th>
+                                                                                    <td id="p5"></td>
+                                                                                    <td id="p6"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Information Protection Processes
+                                                                                        and Procedures</th>
+                                                                                    <td id="p7"></td>
+                                                                                    <td id="p8"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Maintenance</th>
+                                                                                    <td id="p9"></td>
+                                                                                    <td id="p10"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Protective Technology</th>
+                                                                                    <td id="p11"></td>
+                                                                                    <td id="p12"></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="card-header" id="headingThree">
+                                                                    <h5 class="mb-0">
+                                                                        <button class="btn btn-link collapsed"
+                                                                            data-toggle="collapse"
+                                                                            data-target="#collapseThree"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="collapseThree">
+                                                                            DETECT
+                                                                        </button>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapseThree" class="collapse"
+                                                                    aria-labelledby="headingThree"
+                                                                    data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                        <table class="table">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th scope="col">Category</th>
+                                                                                    <th scope="col">Score</th>
+                                                                                    <th scope="col">Maturity Level</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Anomalies and Events</th>
+                                                                                    <td id="d1"></td>
+                                                                                    <td id="d2"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th scope="row">Security
+                                                                                        Continuous Monitoring</th>
+                                                                                    <td id="d3"></td>
+                                                                                    <td id="d4"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Detection Processes</th>
+                                                                                    <td id="d5"></td>
+                                                                                    <td id="d6"></td>
+                                                                                </tr>
+
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="card">
+                                                                <div class="card-header" id="headingFour">
+                                                                    <h5 class="mb-0">
+                                                                        <button class="btn btn-link collapsed"
+                                                                            data-toggle="collapse"
+                                                                            data-target="#collapseFour"
+                                                                            aria-expanded="false"
+                                                                            aria-controls="collapseFour">
+                                                                            RESPOND
+                                                                        </button>
+                                                                    </h5>
+                                                                </div>
+                                                                <div id="collapseFour" class="collapse"
+                                                                    aria-labelledby="headingFour"
+                                                                    data-parent="#accordion">
+                                                                    <div class="card-body">
+                                                                        <table class="table">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th scope="col">Category</th>
+                                                                                    <th scope="col">Score</th>
+                                                                                    <th scope="col">Maturity Level</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <th scope="row" rowspan="1">Response
+                                                                                        Planning</th>
+                                                                                    <td id="r1"></td>
+                                                                                    <td id="r2"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Communications</th>
+                                                                                    <td id="r3"></td>
+                                                                                    <td id="r4"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">Analysis
+                                                                                    </th>
+                                                                                    <td id="r5"></td>
+                                                                                    <td id="r6"></td>
+                                                                                </tr>
+
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Mitigation</th>
+                                                                                    <td id="r7"></td>
+                                                                                    <td id="r8"></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <th scope="row">
+                                                                                        Improvements</th>
+                                                                                    <td id="r9"></td>
+                                                                                    <td id="r10"></td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card">
+                                                                    <div class="card-header" id="headingFive">
+                                                                        <h5 class="mb-0">
+                                                                            <button class="btn btn-link collapsed"
+                                                                                data-toggle="collapse"
+                                                                                data-target="#collapseFive"
+                                                                                aria-expanded="false"
+                                                                                aria-controls="collapseFive">
+                                                                                RECOVERY
+                                                                            </button>
+                                                                        </h5>
+                                                                    </div>
+                                                                    <div id="collapseFive" class="collapse"
+                                                                        aria-labelledby="headingFive"
+                                                                        data-parent="#accordion">
+                                                                        <div class="card-body">
+                                                                            <table class="table">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th scope="col">Category</th>
+                                                                                        <th scope="col">Score</th>
+                                                                                        <th scope="col">Maturity Level
+                                                                                        </th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <th scope="row">
+                                                                                            Recovery Planning</th>
+                                                                                        <td id="re1"></td>
+                                                                                        <td id="re2"></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <th scope="row">
+                                                                                            Improvements</th>
+                                                                                        <td id="re3"></td>
+                                                                                        <td id="re4"></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <th scope="row">
+                                                                                            Communications</th>
+                                                                                        <td id="re5"></td>
+                                                                                        <td id="re6"></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- /.box -->
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    </div>
+    </div>
+    <script type="text/javascript" src="./assets/scripts/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $.get("http://localhost:7000/show", null, function (response) {
+            if (response.error == undefined) {
+                document.getElementById('ip').innerHTML = response.iresponse.iorm + "%";
+                document.getElementById('pp').innerHTML = response.presponse.porm + "%";
+                document.getElementById('dp').innerHTML = response.dresponse.dorm + "%";
+                document.getElementById('rp').innerHTML = response.rresponse.rorm + "%";
+                document.getElementById('rep').innerHTML = response.reresponse.reorm + "%";
+                document.getElementById('i1').innerHTML = response.iresponse.isc1sr;
+                document.getElementById('i2').innerHTML = response.iresponse.isc1risk;
+                document.getElementById('i3').innerHTML = response.iresponse.isc2sr;
+                document.getElementById('i4').innerHTML = response.iresponse.isc2risk;
+                document.getElementById('i5').innerHTML = response.iresponse.isc3sr;
+                document.getElementById('i6').innerHTML = response.iresponse.isc3risk;
+                document.getElementById('i7').innerHTML = response.iresponse.isc4sr;
+                document.getElementById('i8').innerHTML = response.iresponse.isc4risk;
+                document.getElementById('i9').innerHTML = response.iresponse.isc5sr;
+                document.getElementById('i10').innerHTML = response.iresponse.isc5risk;
+                document.getElementById('i11').innerHTML = response.iresponse.isc6sr;
+                document.getElementById('i12').innerHTML = response.iresponse.isc6risk;
+                document.getElementById('p1').innerHTML = response.presponse.psc1sr;
+                document.getElementById('p2').innerHTML = response.presponse.psc1risk;
+                document.getElementById('p3').innerHTML = response.presponse.psc2sr;
+                document.getElementById('p4').innerHTML = response.presponse.psc2risk;
+                document.getElementById('p5').innerHTML = response.presponse.psc3sr;
+                document.getElementById('p6').innerHTML = response.presponse.psc3risk;
+                document.getElementById('p7').innerHTML = response.presponse.psc4sr;
+                document.getElementById('p8').innerHTML = response.presponse.psc4risk;
+                document.getElementById('p9').innerHTML = response.presponse.psc5sr;
+                document.getElementById('p10').innerHTML = response.presponse.psc5risk;
+                document.getElementById('p11').innerHTML = response.presponse.psc6sr;
+                document.getElementById('p12').innerHTML = response.presponse.psc6risk;
+                document.getElementById('d1').innerHTML = response.dresponse.dsc1sr;
+                document.getElementById('d2').innerHTML = response.dresponse.dsc1risk;
+                document.getElementById('d3').innerHTML = response.dresponse.dsc2sr;
+                document.getElementById('d4').innerHTML = response.dresponse.dsc2risk;
+                document.getElementById('d5').innerHTML = response.dresponse.dsc3sr;
+                document.getElementById('d6').innerHTML = response.dresponse.dsc3risk;
+                document.getElementById('r1').innerHTML = response.rresponse.rsc1sr;
+                document.getElementById('r2').innerHTML = response.rresponse.rsc1risk;
+                document.getElementById('r3').innerHTML = response.rresponse.rsc2sr;
+                document.getElementById('r4').innerHTML = response.rresponse.rsc2risk;
+                document.getElementById('r5').innerHTML = response.rresponse.rsc3sr;
+                document.getElementById('r6').innerHTML = response.rresponse.rsc3risk;
+                document.getElementById('r7').innerHTML = response.rresponse.rsc4sr;
+                document.getElementById('r8').innerHTML = response.rresponse.rsc4risk;
+                document.getElementById('r9').innerHTML = response.rresponse.rsc5sr;
+                document.getElementById('r10').innerHTML = response.rresponse.rsc5risk;
+                document.getElementById('re1').innerHTML = response.reresponse.resc1sr;
+                document.getElementById('re2').innerHTML = response.reresponse.resc1risk;
+                document.getElementById('re3').innerHTML = response.reresponse.resc2sr;
+                document.getElementById('re4').innerHTML = response.reresponse.resc2risk;
+                document.getElementById('re5').innerHTML = response.reresponse.resc3sr;
+                document.getElementById('re6').innerHTML = response.reresponse.resc3risk;
+                document.getElementById('ov1').innerHTML = response.iresponse.ior;
+                document.getElementById('ov2').innerHTML = response.iresponse.ioml;
+                document.getElementById('ov3').innerHTML = response.presponse.por;
+                document.getElementById('ov4').innerHTML = response.presponse.poml;
+                document.getElementById('ov5').innerHTML = response.dresponse.dor;
+                document.getElementById('ov6').innerHTML = response.dresponse.doml;
+                document.getElementById('ov7').innerHTML = response.rresponse.ror;
+                document.getElementById('ov8').innerHTML = response.rresponse.roml;
+                document.getElementById('ov9').innerHTML = response.reresponse.reor;
+                document.getElementById('ov10').innerHTML = response.reresponse.reoml;
+            } else {
+                showError(response.error)
+            }
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CSRI-maturity assessment tool</title>
+	<!-- loading external css files -->
+	<link href="css/main.css" rel="stylesheet">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
+    <meta name="description" content="This is an example dashboard created using build-in elements and components.">
+    <meta name="msapplication-tap-highlight" content="no">
+</head>
+<body>
+    <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
+        <div class="app-header header-shadow">
+            <div class="app-header__logo">
+                <div class="logo-src"></div>
+                <div class="header__pane ml-auto">
+                    <div>
+                        <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                            data-class="closed-sidebar">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="app-header__mobile-menu">
+                <div>
+                    <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+            <div class="app-header__menu">
+                <span>
+                    <button type="button"
+                        class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                        <span class="btn-icon-wrapper">
+                            <i class="fa fa-ellipsis-v fa-w-6"></i>
+                        </span>
+                    </button>
+                </span>
+            </div>
+            <div class="app-header__content">
+                <div class="app-header-left">
+                    <div class="search-wrapper">
+                        <div class="input-holder">
+                            <input type="text" class="search-input" placeholder="Type to search">
+                            <button class="search-icon"><span></span></button>
+                        </div>
+                        <button class="close"></button>
+                    </div>
+                </div>
+                <div class="app-header-right">
+                    <div class="header-btn-lg pr-0">
+                        <div class="widget-content p-0">
+                            <div class="widget-content-wrapper">
+                                <div class="widget-content-left">
+                                    <div class="btn-group">
+                                        <a data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            class="p-0 btn">
+                                            <img width="42" class="rounded-circle" src="assets/images/csri-icon.png"
+                                                alt="">
+                                            <i class="fa fa-angle-down ml-2 opacity-8"></i>
+                                        </a>
+                                        <div tabindex="-1" role="menu" aria-hidden="true"
+                                            class="dropdown-menu dropdown-menu-right">
+                                            <a href="/users/logout"><button type="button" tabindex="0" class="dropdown-item">Signout</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-content-left  ml-3 header-user-info">
+                                    <div class="widget-heading">
+                                        Deakin Detonator Cyber Defence-PG Squad
+                                    </div>
+                                    <div class="widget-subheading">
+                                        Admin Account
+                                    </div>
+                                </div>
+                                <div class="widget-content-right header-user-info ml-3">
+                                    <button type="button"
+                                        class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
+                                        <i class="fa text-white fa-calendar pr-1 pl-1"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-main">
+            <div class="app-sidebar sidebar-shadow">
+                <div class="app-header__logo">
+                    <div class="logo-src"></div>
+                    <div class="header__pane ml-auto">
+                        <div>
+                            <button type="button" class="hamburger close-sidebar-btn hamburger--elastic"
+                                data-class="closed-sidebar">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-header__mobile-menu">
+                    <div>
+                        <button type="button" class="hamburger hamburger--elastic mobile-toggle-nav">
+                            <span class="hamburger-box">
+                                <span class="hamburger-inner"></span>
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="app-header__menu">
+                    <span>
+                        <button type="button"
+                            class="btn-icon btn-icon-only btn btn-primary btn-sm mobile-toggle-header-nav">
+                            <span class="btn-icon-wrapper">
+                                <i class="fa fa-ellipsis-v fa-w-6"></i>
+                            </span>
+                        </button>
+                    </span>
+                </div>
+                <div class="scrollbar-sidebar">
+                    <div class="app-sidebar__inner">
+                        <ul class="vertical-nav-menu">
+                            <li class="app-sidebar__heading">Dashboards</li>
+                            <li>
+                                <a href="index">
+
+                                    CSRI
+                                </a>
+                            </li>
+                            <li class="app-sidebar__heading">Assessments Details</li>
+                            <li>
+                            <li>
+                                <a href="JavaScript:Void(0);" class="mm-active">
+                                    <i class="metismenu-icon"></i>
+                                    Maturity Assessment
+                                </a>
+                            </li>
+                            <li>
+
+
+                            <li>
+                                <a href="identify">
+                                    <i class="metismenu-icon"></i>
+                                    Identify
+                                </a>
+                            </li>
+                            <li>
+                                <a href="protect">
+                                    <i class="metismenu-icon">
+                                    </i>Protect
+                                </a>
+                            </li>
+                            <li>
+                                <a href="detect">
+                                    <i class="">
+                                    </i>Detect
+                                </a>
+                            </li>
+                            <li>
+                                <a href="respond">
+                                    <i class="metismenu-icon">
+                                    </i>Respond
+                                </a>
+                            </li>
+                            <li>
+                                <a href="recover">
+                                    <i class="metismenu-icon">
+                                    </i>Recover
+                                </a>
+                            </li>
+                    </div>
+                </div>
+            </div>
+            <div class="app-main__outer">
+                <div class="app-main__inner">
+                    <div class="app-page-title">
+                        <div class="page-title-wrapper">
+                            <div class="page-title-heading">
+                                <div>Cyber Security Maturity Level Assessment</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row container-limited mb-3">
+                        <div class="col-md-12">
+                            <div class="main-card mb-3 card">
+                                <h5 class="card-header"> Respond Phase </h5>
+                                <div class="card-body">
+
+                                    <b> Response Planning </b>
+                                    <div class="row container-limited">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">1. A response plan has been created and can be implemented in the event of a system breach.</label>
+                                                <label for="formGroupExampleInput"><i>Response plans are reviewed annually.</i></label>
+                                                <select class="form-control" id="r1" name="r1">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd1" /> Low
+                                                    <input type="radio" value="2" name="rd1" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd1" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <b> Communications </b>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">1.There is a dedicated incident response team, who have clearly defined roles and responsibilities.</label>
+                                                <label for="formGroupExampleInput"><i>Annual reviews of incident response team personnel and procedures are undertaken.</i></label>
+                                                <select class="form-control" id="r2" name="r2">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd2" /> Low
+                                                    <input type="radio" value="2" name="rd2" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd2" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput">2. The organisation's Incident Management Plan (IMP) is tested and improved as required.</label>
+                                                <label for="formGroupExampleInput"><i>Conduct an annual review of the IMP.</i></label>
+                                                <select class="form-control" id="r3" name="r3">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd3" /> Low
+                                                    <input type="radio" value="2" name="rd3" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd3" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">3. Cyber security policies include provisions for incident reporting.</label>
+                                                <label for="formGroupExampleInput"><i>Incident reporting processes are reviewed annually.</i></label>
+                                                <select class="form-control" id="r4" name="r4">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd4" /> Low
+                                                    <input type="radio" value="2" name="rd4" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd4" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">4. Maintain and manage access to cyber security services and specialists.</label>
+                                                <label for="formGroupExampleInput"><i>Conduct annual reviews of contracts with cyber security security specialists.</i></label>
+                                                <select class="form-control" id="r5" name="r5">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd5" /> Low
+                                                    <input type="radio" value="2" name="rd5" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd5" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <b>Analysis </b>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">1. Notifications from detection systems are investigated.</label>
+                                                <label for="formGroupExampleInput"><i>Detection systems are reviewed annually</i></label>
+                                                <select class="form-control" id="r6" name="r6">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd6" /> Low
+                                                    <input type="radio" value="2" name="rd6" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd6" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">2.The impact of the incident is understood and categorised in a manner consistent with response plans.</label>
+                                                <label for="formGroupExampleInput"><i>Responce plan is made consistent alongside  the new inclident impacts.</i></label>
+                                                <select class="form-control" id="r7" name="r7">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd7" /> Low
+                                                    <input type="radio" value="2" name="rd7" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd7" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">3.Forensics investigation are performed.</label>
+                                                <label for="formGroupExampleInput"><i>Forensics investigations are done in a periodic manner without fail.</i></label>
+                                                <select class="form-control" id="r8" name="r8">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd8" /> Low
+                                                    <input type="radio" value="2" name="rd8" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd8" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <b>Mitigation </b>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">1. Incidents are contained, with adequate mitigation strategies enforced.</label>
+                                                <label for="formGroupExampleInput"><i>Enforcing Mitigation standards to reduce or contain risks</i></label>
+                                                <select class="form-control" id="r9" name="r9">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd9" /> Low
+                                                    <input type="radio" value="2" name="rd9" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd9" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">2. Newly identified vulnerabilities are documented as accepted risks.</label>
+                                                <label for="formGroupExampleInput"><i>Continuous evaluation to find new vulnerabilities that add to risks. </i></label>
+                                                <select class="form-control" id="r10" name="r10">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd10" /> Low
+                                                    <input type="radio" value="2" name="rd10" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd10" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <hr>
+                                            <b>Improvements </b>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">1.'Lessons learned meetings are held periodically after the occurrence of an incident.</label>
+                                                <label for="formGroupExampleInput"><i>Periodic review of lessons learned</i></label>
+                                                <select class="form-control" id="r11" name="r11">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd11" /> Low
+                                                    <input type="radio" value="2" name="rd11" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd11" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="formGroupExampleInput2">2. Response strategies are updated from lessons learned.</label>
+                                                <label for="formGroupExampleInput"><i>Timely updation of responce techniques from lessons learned</i></label>
+                                                <select class="form-control" id="r12" name="r12">
+                                                    <option value="-1"> Select </option>
+                                                    <option value="0">Not implemented</option>
+                                                    <option value="1">Partially implemented </option>
+                                                    <option value="2">Fully Implemented</option>
+                                                </select>
+                                                <div class="selectOption">
+                                                    <label>Difficulty Level: </label>
+                                                    <input type="radio" value="1" checked name="rd12" /> Low
+                                                    <input type="radio" value="2" name="rd12" />
+                                                    Medium
+                                                    <input type="radio" value="3" name="rd12" />
+                                                    High
+                                                </div>
+                                            </div>
+                                            <div style="display: flex;">
+                                                <div>
+                                                    <a class="btn btn-success mr-2" href="detect" id="Back">Back</a>
+                                                </div>
+                                                <div>
+                                                    <a class="btn btn-primary" id="Next">Next</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+            <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+            <script src="js/jquery.min.js"></script>
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/scripts/main.js"></script>
+    <script>
+        $('select').on('change', function (e) {
+            if (this.options[this.selectedIndex].value == '0' || this.options[this.selectedIndex].value == '1') {
+                this.nextElementSibling.style.display = 'block';
+            } else {
+                this.nextElementSibling.style.display = 'none';
+            }
+
+        })
+        $("#Next").click(function () {
+            var validationCheck = false;
+            var selectBoxes = document.querySelectorAll("select");
+            var objResult = {};
+            for (var i = 0; i < selectBoxes.length; i++) {
+                var element = selectBoxes[i];
+                if (element.value == -1) {
+                    element.className = "form-control selectorError";
+                    validationCheck = true;
+                }
+                else {
+                    element.className = "form-control";
+                    objResult["i" + (i + 1)] = element.value;
+                }
+            }
+
+            if (validationCheck == true) {
+                alert("please update the required fields");
+            }
+            else {
+                alert("Proceed to Recover Phase");
+                var formData = {
+                    'r1': $('#r1').val(),
+                    'r2': $('#r2').val(),
+                    'r3': $('#r3').val(),
+                    'r4': $('#r4').val(),
+                    'r5': $('#r5').val(),
+                    'r6': $('#r6').val(),
+                    'r7': $('#r7').val(),
+                    'r8': $('#r8').val(),
+                    'r9': $('#r9').val(),
+                    'r10': $('#r10').val(),
+                    'r11': $('#r11').val(),
+                    'r12': $('#r12').val(),
+                    'rd1': $("input[name=rd1]:checked").val(),
+                    'rd2': $("input[name=rd2]:checked").val(),
+                    'rd3': $("input[name=rd3]:checked").val(),
+                    'rd4': $("input[name=rd4]:checked").val(),
+                    'rd5': $("input[name=rd5]:checked").val(),
+                    'rd6': $("input[name=rd6]:checked").val(),
+                    'rd7': $("input[name=rd7]:checked").val(),
+                    'rd8': $("input[name=rd8]:checked").val(),
+                    'rd9': $("input[name=rd9]:checked").val(),
+                    'rd10': $("input[name=rd10]:checked").val(),
+                    'rd11': $("input[name=rd11]:checked").val(),
+                    'rd12': $("input[name=rd12]:checked").val()
+                };
+                console.log(formData);
+                $.post("http://localhost:7000/api/respond", formData, function (response) {
+                    if (response.error == undefined) {
+                        console.log(response.rresponse);
+                        window.location.href = "recover";
+                    } else {
+                        alert(response.error)
+                    }
+                });
+                document.getElementById("Next").setAttribute("href", "recover");
+            }
+        });
+    </script>
+</body>
+
+</html>
